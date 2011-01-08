@@ -138,7 +138,7 @@ abstract class Connection
 	 * protocol://username:password@unix(/some/file/path)/dbname
 	 * </code>
 	 *
-	 * Sqlite has a special syntax, as it does not need a database name or user authentication:
+	 * Sqlite has a special syntax, as it does not need a database name, authentication credentials & port:
 	 *
 	 * <code>
 	 * sqlite://file.db
